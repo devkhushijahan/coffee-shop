@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header Css Style */
+.header{
+    height: 80px;
+    background-color: #010103;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+.header a img{
+    width: 70px;
+    height: 60;
+}
+.header .navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 4px;
+    transition: 0.3s;   
+}
+.header .navber a:hover{
+    color: #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+.header .icons .icon-button{
+    color: white;
+    margin: 0px 10px;
+}
+/*Header Css End */
+
+/*banner Css start */
+.banner{
+height: 80vh;
+width: 100vw;
+background-image: url("./images/home-img.jpeg");
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+padding: 0px 40px;
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+}
+.banner p{
+    color: white;
+} 
+.banner button{
+margin-top: 10px;
+padding: 10px 30px; 
+background-color: yellow;
+font-weight: 700;
+outline: 0;
+border: 0;
+cursor: pointer;
+transition: 0.5s all;
+}
+.banner button:hover{
+    letter-spacing: 2px;
+}
+/*banner Css end */
